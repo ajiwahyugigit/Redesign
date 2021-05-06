@@ -80,7 +80,7 @@
 					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="fa fa-swatchbook"></i></span><span class="pcoded-mtext">Hapus Buku</span></a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="pinjaman_cepat.html">Pinjaman Cepat</a></li>
-					        <li><a href="#">Pinjaman Merchant</a></li>
+					        <li><a href="pinjaman_merchent.html">Pinjaman Merchant</a></li>
 					        <li><a href="#">Pinjaman Modal</a></li>
 					    </ul>
 					</li>
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
 							<div class="row">
-								<div class="col-3">
+								<div class="col-6">
 									<button class="btn btn-success pr-3">
 										<i class="fa fa-search"></i>
 										Pencarian
@@ -367,6 +367,10 @@
 									<button class="btn btn-danger">
 										<i class="fa fa-recycle"></i>
 										Reset
+									</button>
+									<button class="btn btn-primary">
+										<i class="fa fa-book"></i>
+										Unduh Excel
 									</button>
 								</div>
 							</div>
@@ -387,14 +391,15 @@
                                     <thead>
                                         <tr>
                                             <th>No Urut</th>
-                                            <th>Kode</th>
-                                            <th>Platform</th>
+                                            <th>No. Pengajuan</th>
                                             <th>Nama</th>
-                                            <th>Jumlah Pinajaman Yang Diajukan</th>
-                                            <th>Tanggal Pencairan Dana</th>
-                                            <th>Tanggal Jatuh Tempo</th>
-                                            <th>Status</th>
-                                            <th>Detail</th>
+                                            <th>KTP</th>
+                                            <th>Ponsel</th>
+                                            <th>Waktu Pendaftaran</th>
+                                            <th>Waktu Jatuh Tempo</th>
+                                            <th>Keterlambatan</th>
+                                            <th>Asuransi</th>
+                                            <th>Oprasi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -405,6 +410,7 @@
 											<td>Jajang</td>
 											<td>Rp. 10.000.000,-</td>
 											<td>20/20/2020</td>
+											<td>20/02/2020</td>
 											<td>20/02/2020</td>
 											<td>Keterlambatan Pembayaran</td>
 											<td>
@@ -417,8 +423,8 @@
 													Pengajuan Detail
 												</a>
 												<a href="" class="btn btn-danger btn-sm">
-													<i class="fa fa-lock"></i>
-													Kunci
+													<i class="fa fa-trash"></i>
+													Write Off
 												</a>
 											</td>
 

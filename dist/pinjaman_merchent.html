@@ -303,10 +303,14 @@
 						</li>
 					</ul>
 				</div>
+				
+			
 	</header>
 	<!-- [ Header ] end -->
+	
+	
 
-	<!-- [ Main Content ] start -->
+<!-- [ Main Content ] start -->
 <div class="pcoded-main-container">
     <div class="pcoded-content">
         <!-- [ breadcrumb ] start -->
@@ -319,8 +323,8 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="pengaturan.html">Pengaturan</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Akses</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pemberi Pinjaman</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Pinjaman Cepat</a></li>
                             
                         </ul>
                     </div>
@@ -335,32 +339,39 @@
                             <div class="row">
                                 <div class="col-3">
 									<div class="form-group">
-                                        <label class="floating-label" for="Email">Nama Akses</label>
+                                        <label class="floating-label" for="Email">Nama</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor Ponsel</label>
                                         <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
                                     </div>
                                 </div>
-								<div class="col-3">
-									<div class="form-group">
-                                        <label class="floating-label" for="Email">Akses Router</label>
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor Pengajuan</label>
                                         <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                                    </div>
-								</div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor KTP</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>	
+                                </div>
                             </div>
 							<div class="row">
-								<div class="col-5">
+								<div class="col-6">
 									<button class="btn btn-success pr-3">
 										<i class="fa fa-search"></i>
-										Query
-									</button>
-									<button class="btn btn-primary">
-										<i class="fa fa-plus-circle"></i>
-										Tambah Departement
+										Pencarian
 									</button>
 									<button class="btn btn-danger">
 										<i class="fa fa-recycle"></i>
 										Reset
 									</button>
-									
+									<button class="btn btn-primary">
+										<i class="fa fa-book"></i>
+										Unduh Excel
+									</button>
 								</div>
 							</div>
 							<!-- <div class="row mt-4">
@@ -379,31 +390,44 @@
                                 <table class="table table-hover text-center">
                                     <thead>
                                         <tr>
-                                            <th>No.Urut</th>
-                                            <th>Nama Akses</th>
-                                            <th>Akses Router</th>
+                                            <th>No Urut</th>
+                                            <th>No. Pengajuan</th>
+                                            <th>Nama</th>
+                                            <th>KTP</th>
+                                            <th>Ponsel</th>
                                             <th>Waktu Pendaftaran</th>
-                                            <th>Status</th>
+                                            <th>Waktu Jatuh Tempo</th>
+                                            <th>Keterlambatan</th>
+                                            <th>Asuransi</th>
                                             <th>Oprasi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
 											<td>1</td>
+											<td>877</td>
+											<td>Prosperitree</td>
 											<td>Jajang</td>
-											<td>Halaman Tingkat Satu</td>
-											<td>02/02/2020</td>
-											<td>Normal</td>
+											<td>Rp. 10.000.000,-</td>
+											<td>20/20/2020</td>
+											<td>20/02/2020</td>
+											<td>20/02/2020</td>
+											<td>Keterlambatan Pembayaran</td>
 											<td>
+												<a href="" class="btn btn-success btn-sm">
+													<i class="fa fa-eye"></i>
+													Detail
+												</a>
 												<a href="" class="btn btn-primary btn-sm">
-													<i class="fa fa-edit"></i>
-													Perbarui
+													<i class="fa fa-eye-dropper"></i>
+													Pengajuan Detail
 												</a>
 												<a href="" class="btn btn-danger btn-sm">
 													<i class="fa fa-trash"></i>
-													Hapus
+													Write Off
 												</a>
-											</td>	
+											</td>
+
 										</tr>
                                     </tbody>
                                 </table>
