@@ -317,11 +317,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="page-header-title">
-                            <h5 class="m-b-10">Penerima Pinjaman</h5>
+                            <h5 class="m-b-10">Laporan</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home pr-2"></i>Pinjaman Cepat</a></li>
-                            <li class="breadcrumb-item"><a href="pengaturan.html">Pengecekan Final</a></li>                            
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="pengaturan.html">Laporan Pendapatan</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Laporan Pendapatan Pinjaman Cepat</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -330,260 +332,93 @@
         <div class="page-body">
             <div class="row">
                 <div class="col-12">
-					<div class="card">
-						<div class="card-header">
-						 <div class="row">
-						  <div class="col-11">
-							<h5 class="card-title text-bold">Verifikasi Data dam EKYC</h5>
+                    <div class="card">
+                        <div class="card-header">
+                           <div class="row">
+							   <div class="col-3">
+								<div class="form-group">
+									<label class="floating-label" for="Email">Tangal Transfer</label>
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+							   </div>
+							   <div class="col-3">
+								<div class="form-group">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+							   </div>
 						   </div>
-						   <div class="col">
+                           <div class="row">
+							   <div class="col-3">
+								<div class="form-group">
+									<label class="floating-label" for="Email">Tangal Pencairan</label>
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+							   </div>
+							   <div class="col-3">
+								<div class="form-group">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+							   </div>
 						   </div>
-						 </div>
-						</div>
-						<div class="card-body">
-							<div class="tab-content">
-							
-								<div class="row">
-								  <div class="col-3">
-									<!-- Profile Image -->
-									<div class="card card-primary card-outline">
-									  <div class="card-body box-profile">
-										<div class="text-center">
-										  <img class="profile-user-img img-fluid img-circle"
-											  src="assets/images/profile.png">
-										</div>
-										<h4 class="profile-username text-center">Foto Selfie</h4>
-										<a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit pr-2"></i>Revisi</b></a>
-									  </div>
-									  <!-- /.card-body -->
-									</div>
-									<!-- /.card -->
-									<!-- Profile Image -->
-									<div class="card card-primary card-outline">
-									  <div class="card-body box-profile">
-										<div class="text-center">
-										  <img class="profile-user-img img-fluid img-circle"
-											  src="assets/images/ktp.png">
-										</div>
-		
-										<h4 class="profile-username text-center">Foto KTP</h4>
-										<a href="#tab_2" class="btn btn-primary btn-block"><b><i class="fa fa-edit pr-2"></i>Revisi</b></a>
-									  </div>
-									  <!-- /.card-body -->
-									</div>
-									<!-- /.card -->
-								  </div>
-								  <div class="col">
-									<nav aria-label="breadcrumb">
-									  <ol class="breadcrumb">
-										<li class="breadcrumb-item">Verifikasi Data dam EKYC</li>
-										<li class="breadcrumb-item text-bold">Proses EKYC</li>
-									  </ol> 
-									</nav>
-									<table id="example1" class="table table-bordered table-striped text-center">
-									  <thead>
-									  <tr>
-										<th>NIK</th>
-										<td>36711109897872</td>
-										<td><span class="bg-success text-white p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
-									  </tr>
-									  </thead>
-									  <tbody>
-										<tr>
-										  <th>Nama</th>
-										  <td>Juned Mul</td>
-										  <td><span class="bg-success text-white p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
-										</tr>
-										<tr>
-										  <th>Tempat Lahir</th>
-										  <td>Jakarta</td>
-										  <td><span class="bg-success text-white p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
-										</tr>
-										<tr>
-										  <th>Tanggal Lahir</th>
-										  <td>09 September 1978</td>
-										  <td><span class="bg-danger text-white p-1"><i class="fa fa-check pr-2"></i>Hasil Berbeda</span></td>
-										</tr>
-										<tr>
-										  <th>Alamat</th>
-										  <td>Jl. Pendekar Satu Komp. Dua</td>
-										  <td><span class="bg-success text-white p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
-										</tr>
-										<tr>
-										  <th>Foto Selfie</th>
-										  <td>
-											<div class="progress-group">
-											  <div class="progress progress-sm">
-												<div class="progress-bar bg-warning" style="width: 80%"></div>
-											  </div>
-											</div>
-										  </td>
-										  <td><span class="bg-warning p-1"> <i class="fas fa-spinner fa-spin"></i>80%</span></td>
-										</tr>
-									  </tbody>
-									</table>
-		
-									<button class="btn btn-success"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
-								  </div>
-								</div>    
-		
-								<div class="row">
-								  <div class="col-3">
-									<!-- Profile Image -->
-									<div class="card card-primary card-outline">
-									  <div class="card-body box-profile">
-										<div class="text-center">
-										  <img class="profile-user-img img-fluid img-circle"
-											  src="assets/images/profile.png">
-										</div>
-										<h4 class="profile-username text-center">Foto Selfie & ID</h4>
-										<a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit pr-2"></i>Revisi</b></a>
-									  </div>
-									  <!-- /.card-body -->
-									</div>
-									<!-- /.card -->
-									<!-- Profile Image -->
-									<div class="card card-primary card-outline">
-									  <div class="card-body box-profile">
-										<div class="text-center">
-										  <img class="profile-user-img img-fluid img-circle"
-											  src="assets/images/ktp.png">
-										</div>
-		
-										<h4 class="profile-username text-center">Foto Slip Gaji</h4>
-										<a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit pr-2"></i>Revisi</b></a>
-									  </div>
-									  <!-- /.card-body -->
-									</div>
-									<!-- /.card -->
-								  </div>
-								  <div class="col">
-									<nav aria-label="breadcrumb">
-									  <ol class="breadcrumb">
-										<li class="breadcrumb-item">Verifikasi Data dam EKYC</li>
-										<li class="breadcrumb-item">Proses EKYC</li>
-										<li class="breadcrumb-item text-bold">Proses Verifikasi Data Karyawan</li>
-									  </ol>
-									</nav>
-									<table id="example1" class="table table-bordered table-striped text-center">
-									  <thead>
-									  <tr>
-										<th>Nama Perusahaan</th>
-										<td>PT. Newline Fintech Indonesia</td>
-									  </tr>
-									  </thead>
-									  <tbody>
-										<tr>
-										  <th>Alamat Perusahaan</th>
-										  <td>Mega Kuningan Biru</td>
-		
-										</tr>
-										<tr>
-										  <th>Jenis Perusahaan</th>
-										  <td>Finansial</td>
-		
-										</tr>
-										<tr>
-										  <th>Jabatan</th>
-										  <td>Staff IT</td>
-										</tr>
-										<tr>
-										  <th>Pendapatan</th>
-										  <td>Rp. 2000.000 - Rp. 5000.000</td>
-		
-										</tr>
-										<tr>
-										  <th>Lama Kerja</th>
-										  <td>3 - 6 Tahun</td>
-		
-										</tr>
-										<tr>
-										  <th>Pendapatan</th>
-										  <td>Rp. 2000.000 - Rp. 5000.000</td>
-		
-										</tr>
-									  </tbody>
-									</table>
-									<button class="btn btn-success"><i class="fa fa-check pr-2"></i>Data Sama</button>
-									<button class="btn btn-danger"><i class="fa fa-times pr-2"></i>Data Tidak Sama</button>
-								  </div>
+                           <div class="row">
+							   <div class="col-3">
+								<div class="form-group">
+									<label class="floating-label" for="Email">Tangal Pembayaran</label>
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
 								</div>
-		
-								<div class="row">
-								  <div class="col-3">
-									<!-- Profile Image -->
-									<div class="card card-primary card-outline">
-									  <div class="card-body box-profile">
-										<div class="text-center">
-										  <img class="profile-user-img img-fluid img-circle"
-											  src="assets/images/ktp.png">
-										</div>
-										<h4 class="profile-username text-center">Foto NPWP</h4>
-										<a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit pr-2"></i>Revisi</b></a>
-									  </div>
-									  <!-- /.card-body -->
-									</div>
-									<!-- /.card -->
-								  </div>
-								  <div class="col">
-									<nav aria-label="breadcrumb">
-									  <ol class="breadcrumb">
-										<li class="breadcrumb-item">Verifikasi Data dam EKYC</li>
-										<li class="breadcrumb-item">Proses EKYC</li>
-										<li class="breadcrumb-item">verifikasi Data Karyawan</li>
-										<li class="breadcrumb-item text-bold">Verifikasi Data NPWP</li>
-									  </ol>
-									</nav>
-									<table id="example1" class="table table-bordered table-striped text-center">
-									  <thead>
-									  <tr>
-										<th>Nomor NPWP</th>
-										<td>78323781387</td>
-									  </tr>
-									  </thead>
-									  <tbody>
-										<tr>
-										  <th>Nama</th>
-										  <td>Candra Minarta</td>
+							   </div>
+							   <div class="col-3">
+								<div class="form-group">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+							   </div>
+						   </div>
+                        </div>
+                        <div class="card-body table-border-style">
+                            <div class="table-responsive">
+                                <table class="table table-hover text-center">
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Loan ID</th>
+                                            <th>Nama Lender</th>
+                                            <th>Disbursement ID</th>
+                                            <th>Nama Borrower</th>
+                                            <th>Load ID</th>
+                                            <th>Nilai Pinjaman</th>
+                                            <th>Nilai Pendapatan</th>
+                                            <th>Nilai Bunga Lender</th>
+                                            <th>Tanggal Pengiriman</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+											<td>1</td>
+											<td>211289</td>
+											<td>Dadang</td>
+											<td>TMZ2109</td>
+											<td>Dadang</td>
+											<td>092</td>
+											<td>Rp. 4000.000</td>
+											<td>Rp. 4000.000</td>
+											<td>Rp. 400.000</td>
+											<td>09/02/2022</td>
 										</tr>
-										<tr>
-										  <th>Alamat</th>
-										  <td>Jl.Jendaral Sudirman No.02</td>
-										</tr>
-									  </tbody>
-									</table>
-									<button class="btn btn-success"><i class="fa fa-check pr-2"></i>Data Sama</button>
-									<button class="btn btn-danger"><i class="fa fa-times pr-2"></i>Data Tidak Sama</button>
-								  </div>
-								</div>
-				   
-								<div class="row mt-4">
-								  <div class="col-12">
-									<nav aria-label="breadcrumb">
-									  <ol class="breadcrumb">
-										<li class="breadcrumb-item">Proses EKYC</li>
-										<li class="breadcrumb-item">verifikasi Data Karyawan</li>
-										<li class="breadcrumb-item">Verifikasi Data NPWP</li>
-										<li class="breadcrumb-item text-bold">Verifikasi Data Vidio</li>
-									  </ol>
-									</nav>
-									<div class="embed-responsive embed-responsive-16by9">
-									  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-									</div>
-		
-								  </div>
-								</div>
-								<div class="row mt-4">
-								  <div class="col">
-									<button class="btn btn-primary"><i class="fa fa-edit pr-2"></i>Revisi</button>
-									<button class="btn btn-danger"><i class="fa fa-times-circle pr-2"></i>Data Tidak Sama</button>
-									<button class="btn btn-success"><i class="fa fa-check-circle pr-2"></i>Data Sama</button>
-									
-								  </div>
-								</div>
-						 
-							</div>
-						  </div>
+                              
+                                    </tbody>
+                                </table>
+                            </div>
+							<div class="card-footer">
+								<ul class="pagination pagination-sm m-0 float-right">
+								  <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+								  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+								  <li class="page-item"><a class="page-link" href="#">1</a></li>
+								  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+								  <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+								</ul>
+							  </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
