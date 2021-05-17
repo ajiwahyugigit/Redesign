@@ -2805,9 +2805,7 @@
     opacity: 1;
 }
 
-.ripple-animate {
-    animation: ripple;
-}
+
 @keyframes ripple {
     100% {
         opacity: 0;
