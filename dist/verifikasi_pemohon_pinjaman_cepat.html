@@ -352,83 +352,140 @@
 						  <div class="tab-content">
 							<div class="tab-pane active" id="tab_1">
 							  <div class="row">
-								<div class="col-12">
-								  
-								  <div class="card-body table-responsive p-0" style="height: 120px;">
-									<table class="table table-head-fixed text-nowrap">
-									  <thead>
+								 <div class="col-8">
+									<table id="example1" class="table table-bordered table-striped text-center">
+										<thead>
 										<tr>
-										  <th>Tanggal</th>
-										  <th>No Telp</th>
-										  <th>Status</th>
-										  <th>Rekaman</th>
-										  <th>Agent</th>
-										  <th>Keterangan</th>
+										  <th>Nomor Telepon Kantor</th>
+										  <td>021-213-321</td>
 										</tr>
-									  </thead>
-									  <tbody>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-										<tr>
-										  <td>09/Januari/2021</td>
-										  <td>021 321 321</td>
-										  <td>Tersambung</td>
-										  <td>-</td>
-										  <td>Reni</td>
-										  <td>Keterangan</td>
-										</tr>
-									  </tbody>
-									</table>
-								  </div>
+										</thead>
+										<tbody>
+										  <tr>
+											<th>Nomor Telepon Kantor Tambahan</th>
+											<td>
+											  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="No Telp">
+											</td>
+										  </tr>
+										  <tr>
+											<th>Status</th>
+											<td>
+											  <select class="form-control select2" style="width: 100%;">
+												<option selected="selected">Pilih...</option>
+												<option>Tersambung</option>
+												<option>Tidak Aktif</option>
+												<option>Tidak Terdaftar</option>
+												<option>Tidak di Tempat</option>
+												<option>Salah Sambung</option>
+											  </select>
+											</td>
+										  </tr>
+										  <tr>
+											<th>Keterangan</th>
+											<td>
+											  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+											</td>
+										  </tr>
+										  <tr>
+											<td></td>
+											<td>
+											  <button class="btn btn-success">
+												<i class="fa fa-plus-circle pr-2"></i>
+												Masukan
+											  </button>
+											</td>
+										  </tr>
+										</tbody>
+									  </table>
+								 </div>
+								 <div class="col-4">
+									<div class="card" style="height: 355px;">
+										<div class="card-body">
+											<div id="radialBar-chart-1"></div>
+										</div>
+										<div class="card-footer">
+											<a href="" class="btn btn-primary btn-block"><i class="fa fa-check-circle pr-2"></i>Tongdun Scoring</a>
+										</div>
+									</div>
 								</div>
 								
-							  </div>
+								<div class="col-12">
+									<div class="card-body table-responsive p-0" style="height: 120px;">
+									  <table class="table table-head-fixed text-nowrap">
+										<thead>
+										  <tr>
+											<th>Tanggal</th>
+											<th>No Telp</th>
+											<th>Status</th>
+											<th>Rekaman</th>
+											<th>Agent</th>
+											<th>Keterangan</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										  <tr>
+											<td>09/Januari/2021</td>
+											<td>021 321 321</td>
+											<td>Tersambung</td>
+											<td>-</td>
+											<td>Reni</td>
+											<td>Keterangan</td>
+										  </tr>
+										</tbody>
+									  </table>
+									</div>
+								  </div>
+								
+								
+								</div>
 							  <hr>
 							  <div class="row mt-5">
 								<div class="col-12">
@@ -617,10 +674,11 @@
 									  </tr>
 									</tbody>
 								  </table>
-								  <button class="btn btn-success"><i class="fa fa-check pr-2"></i>Cek Pendapatan Pemohon</button>
+								  
 								</div>
 	  
 								<div class="col-12 mt-5">
+								<button class="btn btn-success mb-2"><i class="fa fa-check pr-2"></i>Cek Pendapatan Pemohon</button>
 								  <table id="example1" class="table table-bordered table-striped text-center align-middle">
 									<thead>
 									  <tr>
@@ -684,7 +742,7 @@
 									</tbody>
 								  </table>
 								  <button class="btn btn-danger"><i class="fa fa-times-circle pr-2"></i>Tolak</button>
-								  <button class="btn btn-primary"><a href="#tab_2" class="text-white" data-toggle="tab">Lanjut</a><i class="fa fa-check-circle pl-2"></i></button>
+								  <button class="btn btn-primary"><a href="#tab_2" class="text-white" data-toggle="tab"><i class="fa fa-check-circle pr-2"></i>Lanjut</a></button>
 								</div>
 							  </div>
 							</div>                    
@@ -977,8 +1035,9 @@
     <script src="assets/js/pcoded.min.js"></script>
 
 <!-- Apex Chart -->
-<script src="assets/js/plugins/apexcharts.min.js"></script>
 
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<script src="assets/js/pages/chart-apex.js"></script>
 
 <!-- custom-chart js -->
 <script src="assets/js/pages/dashboard-main.js"></script>

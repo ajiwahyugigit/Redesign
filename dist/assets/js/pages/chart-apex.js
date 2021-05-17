@@ -1992,7 +1992,7 @@ $(document).ready(function() {
         $(function() {
             var options = {
                 chart: {
-                    height: 350,
+                    height: 270,
                     type: 'radialBar',
                 },
                 plotOptions: {
@@ -2003,8 +2003,8 @@ $(document).ready(function() {
                     },
                 },
                 colors: ["#4680ff"],
-                series: [70],
-                labels: ['Cricket'],
+                series: [80],
+                labels: ['Scoring'],
             }
             var chart = new ApexCharts(
                 document.querySelector("#radialBar-chart-1"),
