@@ -80,7 +80,7 @@
 					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="fa fa-swatchbook"></i></span><span class="pcoded-mtext">Hapus Buku</span></a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="pinjaman_cepat.html">Pinjaman Cepat</a></li>
-					        <li><a href="pinjaman_merchent.html">Pinjaman Merchant</a></li>
+					        <li><a href="#">Pinjaman Merchant</a></li>
 					        <li><a href="#">Pinjaman Modal</a></li>
 					    </ul>
 					</li>
@@ -173,8 +173,6 @@
                             </li>
 					    </ul>
 					</li>
-					
-
 				</ul>
 				
 				<div class="card text-center">
@@ -319,13 +317,12 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="page-header-title">
-                            <h5 class="m-b-10">Pengaturan</h5>
+                            <h5 class="m-b-10">Mitra</h5>
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#">Pemberi Pinjaman</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Pinjaman Cepat</a></li>
-                            
+                            <li class="breadcrumb-item"><a href="pengaturan.html">Verifikasi Mitra</a></li>
+                            <li class="breadcrumb-item active"><a href="#">History</a></li>                            
                         </ul>
                     </div>
                 </div>
@@ -336,51 +333,70 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            
+                            <div class="row">
+                                <div class="col-3 pt-3">
+                                    <div class="form-group">
+                                        <label class="" for="Email">Tanggal Pengajuan :</label>
+                                    </div>
+                                </div>
+								<div class="col-3">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+								<div class="col-3">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+                                
+                            </div>
+							<div class="row">
+								<div class="col-3">
+                                    <div class="form-group">
+                                        <label class="floating-label" for="Email">No.Pengajuan Mitra</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+								<div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nama Pemilik</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+								</div>
+								<div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor Telepon Mitra</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+								</div>
+							</div>
+							
                         </div>
                         <div class="card-body table-border-style">
                             <div class="table-responsive">
                                 <table class="table table-hover text-center">
                                     <thead>
                                         <tr>
-                                            <th>No Urut</th>
-                                            <th>No. Pengajuan</th>
-                                            <th>Nama</th>
-                                            <th>KTP</th>
-                                            <th>Ponsel</th>
-                                            <th>Waktu Pendaftaran</th>
-                                            <th>Waktu Jatuh Tempo</th>
-                                            <th>Keterlambatan</th>
-                                            <th>Asuransi</th>
-                                            <th>Oprasi</th>
+                                            <th>No</th>
+                                            <th>Nama Mitra</th>
+                                            <th>Kategori Mitra</th>
+                                            <th>Tanggal Pengajuan</th>
+											<th>Nomor SIUP</th>
+											<th>Jenis Usaha Mitra</th>
+											<th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
 											<td>1</td>
-											<td>877</td>
-											<td>Prosperitree</td>
-											<td>Jajang</td>
-											<td>Rp. 10.000.000,-</td>
-											<td>20/20/2020</td>
-											<td>20/02/2020</td>
-											<td>20/02/2020</td>
-											<td>Keterlambatan Pembayaran</td>
+											<td>Gerobak Listrik</td>
+											<td>Sipplier Perlengkapan Usaha</td>
+											<td>1 Januari 2021</td>
+											<td>112-222-221</td>
+											<td>Pedanggagan Besan dan Eceran</td>
 											<td>
-												<a href="" class="btn btn-success btn-sm">
-													<i class="fa fa-eye"></i>
+												<a href="verifikasi_mitra.html" class="btn btn-primary btn-sm">
+													<i class="fa fa-eye pr-1"></i>
 													Detail
 												</a>
-												<a href="" class="btn btn-primary btn-sm">
-													<i class="fa fa-eye-dropper"></i>
-													Pengajuan Detail
-												</a>
-												<a href="" class="btn btn-danger btn-sm">
-													<i class="fa fa-trash"></i>
-													Write Off
-												</a>
 											</td>
-
 										</tr>
                                     </tbody>
                                 </table>

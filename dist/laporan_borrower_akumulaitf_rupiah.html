@@ -80,7 +80,7 @@
 					    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="fa fa-swatchbook"></i></span><span class="pcoded-mtext">Hapus Buku</span></a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="pinjaman_cepat.html">Pinjaman Cepat</a></li>
-					        <li><a href="pinjaman_merchent.html">Pinjaman Merchant</a></li>
+					        <li><a href="#">Pinjaman Merchant</a></li>
 					        <li><a href="#">Pinjaman Modal</a></li>
 					    </ul>
 					</li>
@@ -173,8 +173,6 @@
                             </li>
 					    </ul>
 					</li>
-					
-
 				</ul>
 				
 				<div class="card text-center">
@@ -323,8 +321,9 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#">Pemberi Pinjaman</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Pinjaman Cepat</a></li>
+                            <li class="breadcrumb-item"><a href="pengaturan.html">Laporan</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Laporan Format Ojk</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Laporan Lender Akumulatif</a></li>
                             
                         </ul>
                     </div>
@@ -336,52 +335,280 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            
+                            <div class="row">
+                                <div class="col-1">
+                                    <div class="form-group">
+                                        <label class="" for="Email">Tanggal Pencairan</label>
+                                    </div>
+                                </div>
+								<div class="col-3">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+								<div class="col-3">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label class="floating-label" for="Email">Produk</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+							<div class="row">
+								<div class="col-5">
+									<button class="btn btn-primary">
+										<i class="fa fa-eye pr-1"></i>
+										Lihat
+									</button>									
+									<button class="btn btn-success">
+										<i class="fa fa-file-excel pr-1"></i>
+										Donwload Excel
+									</button>									
+								</div>
+							</div>
                         </div>
-                        <div class="card-body table-border-style">
-                            <div class="table-responsive">
+						<div class="card-body table-border-style">
+                            <div class="table-responsive" style="height: 750px;">
                                 <table class="table table-hover text-center">
                                     <thead>
-                                        <tr>
-                                            <th>No Urut</th>
-                                            <th>No. Pengajuan</th>
-                                            <th>Nama</th>
-                                            <th>KTP</th>
-                                            <th>Ponsel</th>
-                                            <th>Waktu Pendaftaran</th>
-                                            <th>Waktu Jatuh Tempo</th>
-                                            <th>Keterlambatan</th>
-                                            <th>Asuransi</th>
-                                            <th>Oprasi</th>
+                                        <tr style="position: sticky;">
+                                            <th>No</th>
+                                            <th>Inklusivitas</th>
+                                            <th>Sejak Peyelenggara didirikan</th>
+                                            <th>Sepanjang Periode</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-											<td>1</td>
-											<td>877</td>
-											<td>Prosperitree</td>
-											<td>Jajang</td>
-											<td>Rp. 10.000.000,-</td>
-											<td>20/20/2020</td>
-											<td>20/02/2020</td>
-											<td>20/02/2020</td>
-											<td>Keterlambatan Pembayaran</td>
-											<td>
-												<a href="" class="btn btn-success btn-sm">
-													<i class="fa fa-eye"></i>
-													Detail
-												</a>
-												<a href="" class="btn btn-primary btn-sm">
-													<i class="fa fa-eye-dropper"></i>
-													Pengajuan Detail
-												</a>
-												<a href="" class="btn btn-danger btn-sm">
-													<i class="fa fa-trash"></i>
-													Write Off
-												</a>
-											</td>
-
+                                        <tr class="bg-info text-white">
+											<td colspan="2" class="text-left">a. Jawa (Unique Lender)</td>
+											<td>0</td>
+											<td>0</td>
 										</tr>
+										<tr>
+											<td>1</td>
+											<td class="text-left">Banten</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td class="text-left">DKI Jakarta</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td class="text-left">Jawa Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td class="text-left">Jawa Tengah</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td class="text-left">DI Yogyakarta</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td class="text-left">Jawa Timur</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr class="bg-info text-white">
+											<td colspan="2" class="text-left">b. Luar Jawa (Unique Lender)</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td class="text-left">Nangroe Aceh Darussalam</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td class="text-left">Sumatera Utara</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td class="text-left">Sumatera Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td class="text-left">Riau</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td class="text-left">Kepulauan Riau</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td class="text-left">Kepulauan Bangka Belitung</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>7</td>
+											<td class="text-left">Jambi</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>8</td>
+											<td class="text-left">Sumatera Selatan</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>9</td>
+											<td class="text-left">Bengkulu</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td class="text-left">Lampung</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>11</td>
+											<td class="text-left">Kalimantan Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>12</td>
+											<td class="text-left">Kalimantan Tengah</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>13</td>
+											<td class="text-left">Kalimantan Utara</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>14</td>
+											<td class="text-left">Kalimantan Timur</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>15</td>
+											<td class="text-left">Kalimantan Selatan</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>16</td>
+											<td class="text-left">Sulawesi Utara</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>17</td>
+											<td class="text-left">Gorontalo</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>18</td>
+											<td class="text-left">Sulawesi Tengah</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>19</td>
+											<td class="text-left">Sulawesi Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>20</td>
+											<td class="text-left">Sulawesi Selatan</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>21</td>
+											<td class="text-left">Sulawesi Tenggara</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>22</td>
+											<td class="text-left">Bali</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>23</td>
+											<td class="text-left">Nusa Tenggara Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>24</td>
+											<td class="text-left">Nusa Tenggara Timur</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>25</td>
+											<td class="text-left">Maluku Utara</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>26</td>
+											<td class="text-left">Maluku</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>27</td>
+											<td class="text-left">Papua Barat</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<td>28</td>
+											<td class="text-left">Papua</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr class="bg-info text-white">
+											<td colspan="2" class="text-left">c. Luar Negri </td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr class="bg-info text-white">
+											<td colspan="2" class="text-left">d. Agregat Total </td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr class="bg-info text-white">
+											<td colspan="2" class="text-left">e. Rata-Rata </td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										
                                     </tbody>
                                 </table>
                             </div>
