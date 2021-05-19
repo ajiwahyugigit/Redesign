@@ -323,7 +323,7 @@
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
                             <li class="breadcrumb-item"><a href="pengaturan.html">Laporan</a></li>
                             <li class="breadcrumb-item active"><a href="#">Laporan Format Ojk</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Laporan Lender Akumulatif</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Laporan Outstanding</a></li>
                             
                         </ul>
                     </div>
@@ -373,12 +373,17 @@
                                     <thead>
                                         <tr style="position: sticky;">
                                             <th>No</th>
-                                            <th>Inklusivitas</th>
-                                            <th>Sejak Peyelenggara didirikan</th>
-                                            <th>Sepanjang Periode</th>
+                                            <th>Kategori Kualitas Pinjaman</th>
+                                            <th>Jumlah Unik Borrower yang memiliki Outstanding</th>
+                                            <th>Nilai Outstanding</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        <tr class="bg-info text-white">
+											<td colspan="2" class="text-left">Pinjaman Lancar</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
                                         <tr class="bg-info text-white">
 											<td colspan="2" class="text-left">a. Jawa (Unique Lender)</td>
 											<td>0</td>
@@ -594,11 +599,6 @@
 											<td>0</td>
 										</tr>
 										<tr class="bg-info text-white">
-											<td colspan="2" class="text-left">c. Luar Negri </td>
-											<td>0</td>
-											<td>0</td>
-										</tr>
-										<tr class="bg-info text-white">
 											<td colspan="2" class="text-left">d. Agregat Total </td>
 											<td>0</td>
 											<td>0</td>
@@ -611,7 +611,7 @@
 										</tr>
 										<tr>
 											<td>-</td>
-											<td class="text-left">Perempuan</td>
+											<td class="text-left">Prempuan</td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
@@ -622,30 +622,35 @@
 											<td>0</td>
 										</tr>
 										<tr class="bg-info text-white">
-											<td colspan="2" class="text-left">e. Akumulasi jumlah Unique Lender berdasarkan usia (Bagi Unique Lender Perseorangan)</td>
+											<td colspan="2" class="text-left">e. Rata-Rata </td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
 										<tr>
-											<td class="text-left" colspan="2">(- <19 tahun</td>
+											<td></td>
+											<td class="text-left">(- <19 Tahun</td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
 										<tr>
-											<td class="text-left" colspan="2">(- 19 - 34 tahun</td>
+											<td></td>
+											<td class="text-left">(- <19 - 34 Tahun</td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
 										<tr>
-											<td class="text-left" colspan="2">(- 35 - 54 tahun</td>
+											<td></td>
+											<td class="text-left">(- <35 - 54 Tahun</td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
 										<tr>
-											<td class="text-left" colspan="2">(- >54 tahun</td>
+											<td></td>
+											<td class="text-left">(- > 54</td>
 											<td>0</td>
 											<td>0</td>
 										</tr>
+										
                                     </tbody>
                                 </table>
                             </div>
