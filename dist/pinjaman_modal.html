@@ -173,6 +173,8 @@
                             </li>
 					    </ul>
 					</li>
+					
+
 				</ul>
 				
 				<div class="card text-center">
@@ -317,12 +319,12 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="page-header-title">
-                            <h5 class="m-b-10">Laporan</h5>
+                            <h5 class="m-b-10">Hapus Buku</h5>
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="pengaturan.html">Laporan Pendapatan</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Laporan Pendapatan Pinjaman Cepat</a></li>
+                            <li class="breadcrumb-item"><a href="#">Hapus Buku</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Pinjaman Modal</a></li>
                             
                         </ul>
                     </div>
@@ -334,83 +336,83 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                           <div class="row">
-							   <div class="col-2 mt-2">
-								<label class="floating-label" for="Email">Tangal Transfer :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+                            <div class="row">
+								<div class="col-2 mt-3">
+									<label class="floating-label" for="Email">Tanggal</label>
 								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+                                <div class="col-3">
+									<div class="form-group">
+                                        <input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>	
+                                </div>
+                            </div>
+							<div class="row">
+								<div class="col-5">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">No Pengajuan</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>	
 								</div>
-							   </div>
-						   </div>
-                           <div class="row">
-							   <div class="col-2 mt-2">
-									<label class="floating-label" for="Email">Tangal Pencairan :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								<div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor KTP</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>	
 								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+							</div>
+							<div class="row">
+								<div class="col-6">
+									<button class="btn btn-success pr-3">
+										<i class="fa fa-search"></i>
+										Query
+									</button>
+									<button class="btn btn-danger">
+										<i class="fa fa-recycle"></i>
+										Reset
+									</button>
+									<button class="btn btn-primary">
+										<i class="fa fa-download"></i>
+										Download
+									</button>
 								</div>
-							   </div>
-						   </div>
-                           <div class="row">
-							   <div class="col-2 mt-2">
-								   <label class="floating-label" for="Email">Tangal Pembayaran :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+							</div>
+							<!-- <div class="row mt-4">
+								<div class="col-4">
+									<div class="form-group">
+                                        <label class="floating-label" for="status">Kosong</label>
+                                        <select class="form-control" id="status">
+											<option></option>
+                                        </select>
+                                    </div>
 								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
-								</div>
-							   </div>
-						   </div>
+							</div> -->
                         </div>
                         <div class="card-body table-border-style">
                             <div class="table-responsive">
                                 <table class="table table-hover text-center">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Loan ID</th>
-                                            <th>Nama Lender</th>
-                                            <th>Disbursement ID</th>
-                                            <th>Nama Borrower</th>
-                                            <th>Load ID</th>
-                                            <th>Nilai Pinjaman</th>
-                                            <th>Nilai Pendapatan</th>
-                                            <th>Nilai Bunga Lender</th>
-                                            <th>Tanggal Pengiriman</th>
+                                            <th>No Urut</th>
+                                            <th>No. Pengajuan</th>
+                                            <th>Nama</th>
+                                            <th>KTP</th>
+                                            <th>Ponsel</th>
+                                            <th>Waktu Pendaftaran</th>
+                                            <th>Waktu Jatuh Tempo</th>
+                                            <th>Keterlambatan</th>
+                                            <th>Asuransi</th>
+                                            <th>Oprasi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-											<td>1</td>
-											<td>211289</td>
-											<td>Dadang</td>
-											<td>TMZ2109</td>
-											<td>Dadang</td>
-											<td>092</td>
-											<td>Rp. 4000.000</td>
-											<td>Rp. 4000.000</td>
-											<td>Rp. 400.000</td>
-											<td>09/02/2022</td>
+											<td colspan="10" class="text-center">Data Kosong</td>
 										</tr>
-                              
                                     </tbody>
                                 </table>
                             </div>

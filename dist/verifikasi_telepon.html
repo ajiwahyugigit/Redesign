@@ -321,8 +321,9 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="pengaturan.html">Laporan Pendapatan</a></li>
-                            <li class="breadcrumb-item active"><a href="#">Laporan Pendapatan Pinjaman Cepat</a></li>
+                            <li class="breadcrumb-item"><a href="pengaturan.html">Laporan</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Laporan Kerja Analyst</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Verifikasi Telepon</a></li>
                             
                         </ul>
                     </div>
@@ -334,51 +335,47 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                           <div class="row">
-							   <div class="col-2 mt-2">
-								<label class="floating-label" for="Email">Tangal Transfer :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="form-group pt-2">
+                                        <label class="" for="Email">Tanggal Verifikasi</label>
+                                    </div>
+                                </div>
+								<div class="col-3">
 									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
 								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
+								<div class="col-3">
 									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
 								</div>
-							   </div>
-						   </div>
-                           <div class="row">
-							   <div class="col-2 mt-2">
-									<label class="floating-label" for="Email">Tangal Pencairan :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+                            </div>
+							<div class="row">
+								<div class="col-2">
+                                    <div class="form-group pt-2">
+                                        <label class="" for="Email">Produk</label>
+                                    </div>
+                                </div>
+								<div class="col-3">
+                                    <div class="form-group">
+										<select class="form-control" id="status">
+											<option>Pinjaman Cepat</option>
+											<option>Pinjaman Modal</option>
+											<option>Pinjaman Merchant</option>
+                                        </select>
+                                    </div>
+                                </div>
+							</div>
+							<div class="row">
+								<div class="col-5">
+									<button class="btn btn-primary">
+										<i class="fa fa-eye pr-1"></i>
+										Lihat
+									</button>									
+									<button class="btn btn-success">
+										<i class="fa fa-file-excel pr-1"></i>
+										Donwload Excel
+									</button>									
 								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
-								</div>
-							   </div>
-						   </div>
-                           <div class="row">
-							   <div class="col-2 mt-2">
-								   <label class="floating-label" for="Email">Tangal Pembayaran :</label>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
-								</div>
-							   </div>
-							   <div class="col-3">
-								<div class="form-group">
-									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
-								</div>
-							   </div>
-						   </div>
+							</div>
                         </div>
                         <div class="card-body table-border-style">
                             <div class="table-responsive">
@@ -386,31 +383,61 @@
                                     <thead>
                                         <tr>
                                             <th>No</th>
-                                            <th>Loan ID</th>
-                                            <th>Nama Lender</th>
-                                            <th>Disbursement ID</th>
-                                            <th>Nama Borrower</th>
-                                            <th>Load ID</th>
-                                            <th>Nilai Pinjaman</th>
-                                            <th>Nilai Pendapatan</th>
-                                            <th>Nilai Bunga Lender</th>
-                                            <th>Tanggal Pengiriman</th>
+                                            <th>Reviewer</th>
+                                            <th>Total Pengajuan Verifikasi</th>
+                                            <th>Total Pengajuan yg Lolos</th>
+                                            <th>Proporsi Kelulusan</th>
+                                            <th>Terlambat < 91 Hari</th>
+											<th>Proporsi Pinjaman Terlambat</th>
+											<th>Pinjaman Macet > 90 Hari</th>
+											<th>Proporsi Pinjaman Macet</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
 											<td>1</td>
-											<td>211289</td>
-											<td>Dadang</td>
-											<td>TMZ2109</td>
-											<td>Dadang</td>
-											<td>092</td>
-											<td>Rp. 4000.000</td>
-											<td>Rp. 4000.000</td>
-											<td>Rp. 400.000</td>
-											<td>09/02/2022</td>
+											<td>Rafleshia</td>
+											<td>100</td>
+											<td>35</td>
+											<td>35.00%</td>
+											<td>10</td>
+											<td>28.57%</td>
+											<td>3</td>
+											<td>8.57%</td>
 										</tr>
-                              
+										<tr>
+											<td>2</td>
+											<td>Renny</td>
+											<td>200</td>
+											<td>48</td>
+											<td>24.00%</td>
+											<td>10</td>
+											<td>20.83%</td>
+											<td>2</td>
+											<td>4.17%</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Ineke</td>
+											<td>300</td>
+											<td>100</td>
+											<td>33.33%</td>
+											<td>10</td>
+											<td>10.00%</td>
+											<td>4</td>
+											<td>4.00%</td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>Panda</td>
+											<td>200</td>
+											<td>25</td>
+											<td>10.50%</td>
+											<td>10</td>
+											<td>40.00%</td>
+											<td>8</td>
+											<td>32.00%</td>
+										</tr>
                                     </tbody>
                                 </table>
                             </div>
