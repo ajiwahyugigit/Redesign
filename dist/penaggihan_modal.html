@@ -321,7 +321,7 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#"> Pinjaman Merchant</a></li>                            
+                            <li class="breadcrumb-item"><a href="#"> Pinjaman Modal</a></li>                            
                             <li class="breadcrumb-item"><a href="#"> Penaggihan</a></li>                            
                         </ul>
                     </div>
@@ -384,10 +384,8 @@
 								<th>Janji Bayar</th>
 								<td colspan="2">
 								  <div class="input-group date" id="reservationdate" data-target-input="nearest">
-									<input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
-									<div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-										<div class="input-group-text"><i class="fa fa-calendar"></i></div>
-									</div>
+									<input type="date" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+									
 								</div>
 								</td>
 							  </tr>
@@ -400,7 +398,7 @@
 							</tbody>
 						  </table>
 						  <div class="card-footer">
-							<button class="btn btn-success pr-2">Submit</button>
+							<button class="btn btn-success">Submit</button>
 						  </div>
 						</div>
 						<div class="col-12 mt-5">
@@ -572,31 +570,59 @@
 								  <nav aria-label="breadcrumb">
 									<ol class="breadcrumb">
 									  <li class="breadcrumb-item">Penaggihan</li>
-									  <li class="breadcrumb-item text-bold">Data Pembelian</li>
+									  <li class="breadcrumb-item text-bold">Detail Cicilan</li>
 									</ol> 
 								  </nav>
 								  <table id="example1" class="table table-bordered table-striped align-middle">
 									<thead>
 									  <tr>
-										<th>Nomor Faktur</th>
-										<td>31239893012</td>
+										<th class="text-center">Jatuh Tempo</th>
+										<th class="text-center">Nilai Cicilan</th>
+										<th class="text-center">Status Pembayaran</th>
 									  </tr>
 									</thead>
 									<tbody>
+									    <tr>
+											<td class="text-center">20/5/2021</td>
+											<td class="text-center">Rp. 20.000.000</td>
+											<td class="text-center">Lunas</td>
+										</tr>   
+									    <tr>
+											<td class="text-center">20/6/2021</td>
+											<td class="text-center">Rp. 20.000.000</td>
+											<td class="text-center">Lunas</td>
+										</tr>   
+									    <tr>
+											<td class="text-center">20/7/2021</td>
+											<td class="text-center">Rp. 20.000.000</td>
+											<td class="text-center">Belum Lunas</td>
+										</tr>   
+									</tbody>
+								  </table>
+								</div>
+								<div class="col-12 mt-4">
+								  <nav aria-label="breadcrumb">
+									<ol class="breadcrumb">
+									  <li class="breadcrumb-item">Penaggihan</li>
+									  <li class="breadcrumb-item text-bold">Keanggotaan Asosiasi</li>
+									</ol> 
+								  </nav>
+								  <table id="example1" class="table table-bordered table-striped align-middle">
+									<thead>
 									  <tr>
-										<th>Nilai Pembelian</th>
-										<td>Rp. 5000.0000,00</td>
-									  </tr>                     
-									  <tr>
-										<td>Deskripsi Faktur</td>
-										<td>
-										  <textarea class="form-control" rows="2" placeholder="data banyak data banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyakdata banyak" disabled></textarea>
-										</td>
-									  </tr>    
-									  <tr>
-										<td>Tanggal Penerima Barang</td>
-										<td>02/02/2021</td>
-									  </tr>       
+										<th>Nama Asosiasi</th>
+										<td>Asosiasi Angkringan</td>
+									  </tr>
+									</thead>
+									<tbody>
+									    <tr>
+											<th>Kode Number</th>
+											<td>SM2398</td>
+										</tr> 
+										<tr>
+											<th>Alamat Asosiasi</th>
+											<td>Jl.Menuju Jakarta</td>
+										</tr> 
 									</tbody>
 								  </table>
 								</div>
