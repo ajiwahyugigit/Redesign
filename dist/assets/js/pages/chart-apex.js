@@ -1998,7 +1998,7 @@ $(document).ready(function() {
                 plotOptions: {
                     radialBar: {
                         hollow: {
-                            size: '70%',
+                            size: '60%',
                         }
                     },
                 },
@@ -2008,6 +2008,29 @@ $(document).ready(function() {
             }
             var chart = new ApexCharts(
                 document.querySelector("#radialBar-chart-1"),
+                options
+            );
+            chart.render();
+        });
+        $(function() {
+            var options = {
+                chart: {
+                    height: 270,
+                    type: 'radialBar',
+                },
+                plotOptions: {
+                    radialBar: {
+                        hollow: {
+                            size: '60%',
+                        }
+                    },
+                },
+                colors: ["#4680ff"],
+                series: [75],
+                labels: ['Scoring'],
+            }
+            var chart = new ApexCharts(
+                document.querySelector("#radialBar-chart-0"),
                 options
             );
             chart.render();

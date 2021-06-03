@@ -321,7 +321,7 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#">Pinjaman Modal</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pinjaman Merchant</a></li>
                             <li class="breadcrumb-item active"><a href="#">Verifikasi Pemohon</a></li>
                         </ul>
                     </div>
@@ -342,12 +342,12 @@
 						 </div>
 						</div>
 					  <div class="card-body">
-						<!-- <div class="card-header d-flex p-0">
+						<div class="card-header d-flex p-0">
 						  <ul class="nav nav-pills ml-auto p-2">
 							<li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab"><i class="fa fa-briefcase pr-2"></i>Verifikasi Pekerjaan Pemohon</a></li>
 							<li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Verifikasi Data Pemohon</a></li>
 						  </ul>
-						</div> -->
+						</div><!-- /.card-header -->
 						<div class="card-body">
 						  <div class="tab-content">
 							<div class="tab-pane active" id="tab_1">
@@ -492,310 +492,186 @@
 								  <table id="example1" class="table table-bordered table-striped text-center align-middle">
 									<thead>
 									  <tr>
-										<th>Anggota Asosiasi</th>
-										<td>Asosiasi Kuliner Indoensia</td>
+										<th>Nomor Telepon Kantor</th>
+										<td>021-213-321</td>
 										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
 										</td>
 										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
 										</td>
 									  </tr>
 									</thead>
 									<tbody>
 									  <tr>
-										<th>Nama</th>
-										<td>Mulyana</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>KTP</th>
-										<td>36711239123812</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Tujuan Pinjaman</th>
-										<td>Usaha</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Alamat Domisili</th>
-										<td>Jakarta</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>WhastApp</th>
-										<td>083721839213</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Ayah/Ibu</th>
-										<td>-</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Anak Laki-laki / Anak Perempuan</th>
-										<td>-</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Nomor Telepon Usaha</th>
-										<td>021-87336721</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Alamat Tempat Usaha</th>
-										<td>Jl.Iskandar muda</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Bidang Usaha</th>
-										<td>Pendidikan</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Detail Bidang Usaha</th>
+										<th>Laman Kantor</th>
 										<td></td>
 										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
 										</td>
 										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
 										</td>
 									  </tr>
 									  <tr>
-										<th>Badan Hukum Usaha</th>
+										<th>IVR</th>
 										<td></td>
 										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
 										</td>
 										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
 										</td>
 									  </tr>
 									  <tr>
-										<th>Status Tempat Usaha</th>
+										<th>Nama Perusahaan</th>
+										<td>PT. Newline</td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Profesi</th>
+										<td>Staf IT</td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Tingkat Penghasilan</th>
+										<td>Rp. 3000.000 - Rp. 5000.000</td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Lama Bekerja</th>
+										<td>5 Tahun > </td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Alamat Kantor</th>
+										<td>Jl. Merkdeka Maju No.02</td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Tanggal Penggajian</th>
+										<td>Bulanan 5</td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
+									  <tr>
+										<th>Status Karyawan</th>
 										<td></td>
 										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
 										</td>
 										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
 										</td>
 									  </tr>
 									  <tr>
-										<th>Rata-Rata Pendapatan Perbulan</th>
+										<th>Penerima Telepon</th>
 										<td></td>
 										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
 										</td>
 										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Rata-Rata Pengeluaran Perbulan</th>
-										<td></td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Rata-Rata Keuntungan Perbulan</th>
-										<td></td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Beda
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Sama
-											</button>
-										</td>
-									  </tr>
-									  <tr>
-										<th>Risk Status Dok Cek</th>
-										<td>Low Disk</td>
-										<td>
-											<button class="btn btn-danger btn-sm">
-												<i class="fa fa-times"></i>
-												Low Risk
-											</button>
-										</td>
-										<td>
-											<button class="btn btn-success btn-sm">
-												<i class="fa fa-check"></i>
-												Height Risk
-											</button>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
 										</td>
 									  </tr>
 									  <tr>
 										<th>Kesimpulan</th>
-										<td colspan="3">
+										<td></td>
+										<td colspan="2">
 										  <select class="form-control select2" style="width: 100%;">
 											<option selected="selected">Pilih...</option>
-											<option>Normal</option>
-											<option>Kontrak Darurat Tidak Merekomendasikan</option>
-											<option>Kontrak Darurat Indikasi Palsu</option>
-											<option>Calon Peminjam Gugup</option>
-											<option>Calon Peminjam Tidak Hafal Data Pribadi</option>
-											<option>Seperti Ada Yang Berbisik</option>
+											<option>Sama</option>
+											<option>Tidak</option>
 										  </select>
 										</td>
 									  </tr>
-									  
+									  <tr>
+										<th>Jabaran Pemohon</th>
+										<td></td>
+										<td>
+										  <select class="form-control select2" style="width: 100%;">
+											<option selected="selected">Pilih...</option>
+											<option>Sama</option>
+											<option>Tidak</option>
+										  </select>
+										</td>
+										<td>
+										  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
+										</td>
+									  </tr>
 									</tbody>
 								  </table>
 								  
@@ -844,7 +720,7 @@
 										<td>Mantabb</td>
 										
 										<td>
-										  <span class="bg-danger p-1 text-white"><i class="fa fa-check pr-2"></i>Data Beda</span>
+										  <span class="bg-danger p-1 text-white"><i class="fa fa-times pr-2"></i>Data Beda</span>
 										</td>
 									  </tr>
 									  <tr>

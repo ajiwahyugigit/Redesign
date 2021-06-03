@@ -331,7 +331,144 @@
             <div class="row">
                 <div class="col-12">
 					<div class="card">
+						<div class="row mt-4 ml-2">
+							<div class="col-11">
+								<nav aria-label="breadcrumb">
+									<ol class="breadcrumb">
+									  <li class="breadcrumb-item">Pengecekan Final</li>
+									  <li class="breadcrumb-item text-bold">Credit Scoring</li>
+									</ol> 
+								  </nav>
+							</div>
+							<div class="col-4">
+								<div class="card" style="height: 450px;">
+									<div class="card-header">
+										<h6>TONGDUN SCORING</h4>
+									</div>
+									<div class="card-body">
+										<div id="radialBar-chart-1"></div>
+									</div>
+									<div class="card-footer mt-4">
+										<a href="" class="btn btn-primary btn-block"><i class="fa fa-check-circle pr-2"></i>Tongdun Scoring</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								
+								<div class="card" style="height: 450px;">
+									<div class="card-header">
+										<h6>CRIF SCORING SCORING</h6>
+									</div>
+									<div class="card-body">
+										<div id="radialBar-chart-0"></div>
+									</div>
+									<div class="card-footer">
+										<a href="" class="btn btn-primary btn-block"><i class="fa fa-check-circle pr-2"></i>Cek Scoring</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<a href="" class="btn btn-warning">
+									<i class="fa fa-check-circle"></i>
+									Cek FDC
+								</a> <br>
+								<a href="" class="btn btn-success mt-3">
+									<i class="fa fa-wallet"></i>
+									Kredit Biro
+								</a> <br>
+								<a href="" class="btn btn-secondary mt-3">
+									<i class="fa fa-history"></i>
+									Riwayat Internal
+								</a> 
+							</div>
+							<div class="col-11">
+								<nav aria-label="breadcrumb">
+									<ol class="breadcrumb">
+									  <li class="breadcrumb-item">Pengecekan Final</li>
+									  <li class="breadcrumb-item active">Detail Pengajuan</li>
+									</ol> 
+								  </nav>
+							</div>
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
+										<table id="example1" class="table table-bordered table-striped text-center">
+											<thead>
+											<tr>
+											  <th>Nama Pemohon</th>
+											  <td>Mulyana</td>
+											  <th>Nilai Pengajuan</th>
+											  <td>1000000</td>
+											</tr>
+											</thead>
+											<tbody>
+											  <tr>
+												<th>Pekerjaan</th>
+												<td>Staff IT</td>
+												<th>Nilai Diterima</th>
+												  <td>923000</td>
+											  </tr>
+											  <tr>
+												<th>Perusahaan</th>
+												<td>PT. Keuangan Individu</td>
+												<th>Administrasi</th>
+												  <td>100000</td>
+											  </tr>
+											  <tr>
+												<th>Tingkat Pendapatan</th>
+												<td>4000.000</td>
+												<th>Bunga</th>
+												  <td>200.000</td>
+											  </tr>
+											  <tr>
+												<th>Alamat</th>
+												<td>Jl. Pendekar Satu Komp. Dua</td>
+												<th>Tenor Pengajuan</th>
+												  <td>29 Hari</td>
+											  </tr>
+											  <tr>
+												<th>Tanggal Pengajuan</th>
+												<td>21/02/2021</td>
+											  </tr>
+											  
+											</tbody>
+										  </table>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="card-header">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12">
+										<nav aria-label="breadcrumb">
+											<ol class="breadcrumb">
+											  <li class="breadcrumb-item">Pengecekan Final</li>
+											  <li class="breadcrumb-item active">Pengajuan Aplikasi</li>
+											</ol> 
+										  </nav>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<button type="button" class="btn btn-outline-primary">Gojek</button>
+										<button type="button" class="btn btn-outline-primary ml-4">Maps</button>
+										<button type="button" class="btn btn-outline-primary ml-4">VPN</button>
+										<button type="button" class="btn btn-outline-primary ml-4">Mobile Legend</button>
+										<button type="button" class="btn btn-outline-primary ml-4">GRAB</button>
+										<button type="button" class="btn btn-outline-primary ml-4">Tokopedia</button>
+										<button type="button" class="btn btn-outline-primary ml-4">Lazada</button>
+										<button type="button" class="btn btn-outline-primary ml-3">Youtube</button>
+										<button type="button" class="btn btn-outline-primary mt-3">Freefire</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">MarioBross</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">BCA Mobile</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">BNI Mobile</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">OLX</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">Facebook</button>
+										<button type="button" class="btn btn-outline-primary ml-4 mt-3">Instgram</button>
+									</div>
+								</div>
+							</div>
 						 <div class="row">
 						  <div class="col-11">
 							<h5 class="card-title text-bold">Verifikasi Data dam EKYC</h5>
@@ -597,8 +734,9 @@
     <script src="assets/js/pcoded.min.js"></script>
 
 <!-- Apex Chart -->
-<script src="assets/js/plugins/apexcharts.min.js"></script>
 
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<script src="assets/js/pages/chart-apex.js"></script>
 
 <!-- custom-chart js -->
 <script src="assets/js/pages/dashboard-main.js"></script>
