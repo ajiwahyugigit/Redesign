@@ -335,22 +335,128 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="row">
-                                <div class="col-4">
-                                    <div class="form-group pt-2">
-                                        <label class="" for="Email">Nomor Calon Pemohon</label>
+                                <div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nomor Peminjam</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
                                     </div>
-                                </div>
-								<div class="col-3">
-									<input type="text" class="form-control" id="Email" aria-describedby="emailHelp" value="Mulyana">
 								</div>
-								<div class="col-3">
-									<button class="btn btn-warning">
-										<i class="fa fa-phone-volume"></i>
-										Panggil
-									</button>
+                                <div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nama Calon Peminjam</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+								</div>
+                                <div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Nominal Pinjaman</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
 								</div>
                             </div>
                             <div class="row">
+                                <div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Tenor Pinjaman</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+								</div>
+                                <div class="col-2">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Tanggal Kunjungan :</label>
+                                    </div>
+								</div>
+								<div class="col-3">
+									<input type="date" class="form-control" id="Email" aria-describedby="emailHelp">
+								</div>
+                                <div class="col-3">
+									<div class="form-group">
+                                        <label class="floating-label" for="Email">Alamat Usaha</label>
+                                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                                    </div>
+								</div>
+                            </div>
+							<div class="row">
+								<div class="col">
+									<nav aria-label="breadcrumb">
+										<ol class="breadcrumb">
+										  <li class="breadcrumb-item">Verifikasi Usaha</li>
+										  <li class="breadcrumb-item">Foto</li>
+										</ol>
+									  </nav>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-3">
+									<!-- Profile Image -->
+									<div class="card card-primary card-outline">
+									  <div class="card-body box-profile">
+										<div class="text-center">
+										  <img class="profile-user-img img-fluid img-circle"
+											  src="assets/images/profile.png">
+										</div>
+										<h6 class="profile-username text-center mt-4">Foto Selfie</h6>
+									
+									  </div>
+									  <!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+									
+							
+								</div>
+								<div class="col-3">
+									<!-- Profile Image -->
+									<div class="card card-primary card-outline">
+									  <div class="card-body box-profile">
+										<div class="text-center">
+										  <img class="profile-user-img img-fluid img-circle"
+											  src="assets/images/profile.png">
+										</div>
+										<h6 class="profile-username text-center mt-4">Foto Tempat Usaha</h6>
+									
+									  </div>
+									  <!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+									
+							
+								</div>
+								<div class="col-3">
+									<!-- Profile Image -->
+									<div class="card card-primary card-outline">
+									  <div class="card-body box-profile">
+										<div class="text-center">
+										  <img class="profile-user-img img-fluid img-circle"
+											  src="assets/images/profile.png">
+										</div>
+										<h6 class="profile-username text-center mt-2">Foto Bukti Kepemilikan Tempat</h6>
+									
+									  </div>
+									  <!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+									
+							
+								</div>
+								<div class="col-3">
+									<!-- Profile Image -->
+									<div class="card card-primary card-outline">
+									  <div class="card-body box-profile">
+										<div class="text-center">
+										  <img class="profile-user-img img-fluid img-circle"
+											  src="assets/images/profile.png">
+										</div>
+										<h6 class="profile-username text-center mt-4">Foto Aktivitas Usaha</h6>
+									
+									  </div>
+									  <!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+									
+							
+								</div>
+                            </div>
+								<!-- <div class="row">
                                 <div class="col-4">
                                     <div class="form-group pt-2">
                                         <label class="" for="Email">Nomor Telepon Calon Usaha Tambahan</label>
@@ -396,11 +502,12 @@
 										</a>
 									</div>
 								</div>
-							</div>
+							</div> -->
                         </div>
+
                         <div class="card-body table-border-style">
                             <div class="table-responsive">
-								<table id="example1" class="table table-bordered table-striped">
+								<table class="table table-bordered table-striped">
 									<thead>
 									<tr>
 									  <th>Lama Bergabung Dengan Asosiasi</th>
@@ -412,11 +519,19 @@
 											<option>Lebih dari 5 Tahun</option>
 										</select>
 									  </td>
+									  <td>
+										<div class="input-group mb-3">
+											<div class="custom-file">
+												<input type="file" class="custom-file-input" id="inputGroupFile01">
+												<label class="custom-file-label" for="inputGroupFile01">Unggah Foto Pemohon</label>
+											</div>
+										</div>
+									  </td>
 									</tr>
 									</thead>
 									<tbody>
 									  <tr>
-										<th>Banyaknya Kegiatan Organisasi Yang Pernah Diikuti Selama Tergabung di Asosiasi</th>
+										<th>Banyaknya Kegiatan Organisasi Yang <br> Pernah Diikuti Selama Tergabung di Asosiasi</th>
 										<td>
 											<select class="form-control" id="status">
 												<option>Belum pernah mengikuti kegiatan</option>
@@ -425,9 +540,18 @@
 												<option>Lebih dari 30 Kegiatan</option>
 											</select>
 										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01">Foto Tempat Usaha</label>
+												</div>
+											</div>
+										</td>
 									  </tr>
 									  <tr>
-										<th>Banyaknya Kegiatan Bisnis atau Kerjasama dengan Asosiasi</th>
+										<th>Banyaknya Kegiatan Bisnis atau <br> Kerjasama dengan Asosiasi</th>
 										<td>
 											<select class="form-control" id="status">
 												<option>Belum pernah bekerja sama</option>
@@ -435,6 +559,15 @@
 												<option>4 - 10 kerja sama</option>
 												<option>Lebih dari 10 kerja sama</option>
 											</select>
+										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01">Foto Aktivitas Usaha</label>
+												</div>
+											</div>
 										</td>
 									  </tr>
 									  <tr>
@@ -465,6 +598,15 @@
 												
 											</select>
 										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01">Foto Aktivitas Usaha 1</label>
+												</div>
+											</div>
+										</td>
 									  </tr>
 									  <tr>
 										<th>Status Badan Hukum</th>
@@ -479,6 +621,15 @@
 												<option>Usaha Dagang (UD)</option>
 											</select>
 										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01">Foto Dokumen Usaha</label>
+												</div>
+											</div>
+										</td>
 									  </tr>
 									  <tr>
 										<th>Status Kepemilikan Usaha</th>
@@ -488,6 +639,15 @@
 											  <option>Usaha Keluarga</option>
 											  <option>Usaha Milik Pribadi</option>
 										  </select>
+										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01">Dokumen Bukti Tempat Usaha</label>
+												</div>
+											</div>
 										</td>
 									  </tr>
 									  <tr>
@@ -500,6 +660,15 @@
 												<option>Pengusaha yang berencana untuk memulai usaha</option>
 											</select>
 										</td>
+										<td>
+											<div class="input-group mb-3">
+											
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="inputGroupFile01">
+													<label class="custom-file-label" for="inputGroupFile01"> Dokumen Survei</label>
+												</div>
+											</div>
+										</td>
 									  </tr>
 									  <tr>
 										<th>Lama Membuka Usaha</th>
@@ -511,6 +680,12 @@
 											  <option>1 – 2 tahun</option>
 											  <option>Kurang dari 1 tahun</option>
 										  </select>
+										</td>
+										<td>
+											<button class="btn btn-success btn-block">
+												<i class="fa fa-cloud-upload-alt"></i>
+												Upload
+											</button>
 										</td>
 									  </tr>
 									  <tr>
@@ -613,7 +788,7 @@
 										</td>
 									  </tr>
 									  <tr>
-										<th>Persentase rata-rata nilai produksi dari harga nilai jual</th>
+										<th>Persentase rata-rata nilai produksi <br> dari harga nilai jual</th>
 										<td>
 										  <select id="status" class="form-control">
 											  <option>Di bawah 10% dari harga jual</option>
@@ -624,7 +799,7 @@
 										</td>
 									  </tr>
 									  <tr>
-										<th>Metode Pemasaran atau penjualan yang digunakan</th>
+										<th>Metode Pemasaran atau <br> penjualan yang digunakan</th>
 										<td>
 										  <select id="status" class="form-control">
 											  <option>Hanya dilakukan penjualan daring (online) atau sesuai pesanan saja</option>
